@@ -14,7 +14,6 @@ export const PageOneScreen = ({navigation}: IProps) => {
     navigation.setOptions({
       // eslint-disable-next-line react/no-unstable-nested-components
       headerLeft: () => (
-        // <Button title="Menu" onPress={() => navigation.toggleDrawer()} />
         <TouchableOpacity
           onPress={() => navigation.toggleDrawer()}
           style={styles.buttonBurguer}>
